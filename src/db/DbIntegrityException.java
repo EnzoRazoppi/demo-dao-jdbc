@@ -6,4 +6,6 @@ public class DbIntegrityException extends RuntimeException {
 	public DbIntegrityException(String msg) {
 		super(msg);
 	}
+
+	// Quando se quer deletar algo q é uma foreign key de outra tabela
 }
